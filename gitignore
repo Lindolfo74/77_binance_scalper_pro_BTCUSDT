@@ -1,0 +1,25 @@
+# Variables de entorno y claves (NUNCA subir esto a git)
+.env
+
+# Log de operaciones generado por el bot
+trades_log.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Docker
+*.log
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
